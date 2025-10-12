@@ -1,4 +1,4 @@
-# Store-Management-Project-AP-CSA
+# Store-Management-Project-Karis-Han
 
 # Unit 2 - Store Management Project
 
