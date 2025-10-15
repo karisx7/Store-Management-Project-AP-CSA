@@ -19,7 +19,7 @@ Use your knowledge of object-oriented programming and class structure and design
 
 This is an image of what gets outputted into the console after running the program.
 
-![UML Diagram for my project](Print.png)
+![UML Diagram for my project](info.png)
 
 ## Description
 
