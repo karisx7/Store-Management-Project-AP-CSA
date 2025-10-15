@@ -5,6 +5,7 @@ public class Beverages {
 // Instance variables
   private String size;
   private double price;
+  private boolean isToGo;
 
 
 /*
@@ -13,14 +14,16 @@ public class Beverages {
 public Beverages() {
   size = "Small";
   price = 4.99;
+  isToGo = false;
 }
 
 /*
  * Parameterized constructor for both price and size
  */
-public Beverages(String size, double price) {
+public Beverages(String size, double price, boolean isToGo) {
   this.size = size;
   this.price = price;
+  this.isToGo = isToGo;
 }
 
 /*
@@ -33,6 +36,10 @@ public String getSize() {
 
 public double getPrice() {
   return price;
+}
+
+public boolean getIsToGo() {
+  return isToGo;
 }
 
 /*
@@ -51,11 +58,15 @@ public double getPrice() {
     
   }
 
+  public void setIsToGo(boolean newIsToGo) {
+    isToGo = newIsToGo;
+  }
+
 /*  
  *toString method used to return a string representation of size and price
  */
   public String toString() {
-    return ("Size: " + this.size + "\nPrice: $" + this.price);
+    return ("Size: " + this.size + "\nPrice: $" + this.price + "\nIs it to-go?: " + this.isToGo);
   } 
 }
  

@@ -16,8 +16,8 @@ public Coffee() {
 /*
  * Parameterized constructor for price, size, and hasIce
  */
-public Coffee(String size, double price, boolean hasIce) {
-  super(size, price);
+public Coffee(String size, double price, boolean isToGo, boolean hasIce) {
+  super(size, price, isToGo);
   this.hasIce = hasIce;
 }
 

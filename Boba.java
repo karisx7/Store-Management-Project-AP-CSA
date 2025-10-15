@@ -16,8 +16,8 @@ public class Boba extends Beverages {
 /*
  * Parameterized constructor for price, size, and hasBoba
  */
-  public Boba(String size, double price, boolean hasBoba) {
-    super(size, price);
+  public Boba(String size, double price, boolean isToGo, boolean hasBoba) {
+    super(size, price, isToGo);
     this.hasBoba = hasBoba;
   }
 

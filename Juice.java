@@ -16,8 +16,8 @@ public class Juice extends Beverages {
 /*
  * Parameterized constructor for price, size, and flavor
  */
-  public Juice(String size, double price, String flavor) {
-    super(size, price);
+  public Juice(String size, double price, String flavor, boolean isToGo) {
+    super(size, price, isToGo);
     this.flavor = flavor;
   }
 
